@@ -1,0 +1,31 @@
+.row {
+    display: flex;
+    height:100%
+}
+
+.column {
+    float: left;
+    height:100%
+}
+
+.left {
+    flex: 20%;
+    background-color: darkblue;
+    color: whitesmoke;
+    height: 100%;
+    padding: 10px;
+    position: static;
+}
+
+a {
+    color:whitesmoke;
+}
+
+a.hover {
+    color:lightblue;
+}
+
+.right {
+    flex: 80%;
+    margin: 10px;
+}
